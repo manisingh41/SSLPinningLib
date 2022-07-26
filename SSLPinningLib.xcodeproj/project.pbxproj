@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		450CEC1C288FE03000572999 /* SSLPinningLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 450CEC1A288FE03000572999 /* SSLPinningLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		450CEC24288FE05C00572999 /* PinningSSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CEC23288FE05C00572999 /* PinningSSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		450CEC17288FE03000572999 /* SSLPinningLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSLPinningLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		450CEC1A288FE03000572999 /* SSLPinningLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLPinningLib.h; sourceTree = "<group>"; };
 		450CEC1B288FE03000572999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		450CEC23288FE05C00572999 /* PinningSSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinningSSL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 			children = (
 				450CEC1A288FE03000572999 /* SSLPinningLib.h */,
 				450CEC1B288FE03000572999 /* Info.plist */,
-				450CEC23288FE05C00572999 /* PinningSSL.swift */,
 			);
 			path = SSLPinningLib;
 			sourceTree = "<group>";
@@ -134,7 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450CEC24288FE05C00572999 /* PinningSSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +279,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.SSLPinningLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.SSLPinningLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
